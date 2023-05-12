@@ -101,10 +101,46 @@
 // const result = text.match(target)
 // console.log(result)
 
-const text = 'imagine all the people living for today'
-const textUpper = text.toUpperCase()
-console.log(textUpper)
-const textLower = textUpper.toLowerCase()
-console.log(textLower)
-const newTextUpper = textLower.slice(0, 1).toUpperCase() + textLower.slice(1)
-console.log(newTextUpper)
+// const text = 'imagine all the people living for today'
+// const textUpper = text.toUpperCase()
+// console.log(textUpper)
+// const textLower = textUpper.toLowerCase()
+// console.log(textLower)
+// const newTextUpper = textLower.slice(0, 1).toUpperCase() + textLower.slice(1)
+// console.log(newTextUpper)
+
+// const str = 'りんごみかんぶどう'
+// const newStr = str.replace(/みかん/g, 'もも')
+// console.log(newStr)
+
+// const str = 'あいうえおかきくけこ'
+// const newStr = str.slice(-3)
+// console.log(newStr)
+
+// const text = 'abc-acb-bac-bca-cab-cba'
+// const target = /ab/g
+// const count = (text.match(target) || []).length
+// console.log(count)
+
+// const str = '1*2*3*4*5'
+// result = Function('return (' + str + ')')()
+// console.log(result)
+
+// const str = 'abc,def,ghi,jkl'
+// const arr = str.split(',')
+// console.log(arr)
+
+// const str2 = 'abc def ghi jkl'
+// const arr2 = str2.split(' ')
+// console.log(arr2)
+
+// const str3 = 'abcdefghijkl'
+// const arr3 = str3.split('')
+// console.log(arr3)
+
+const num = 1234
+const numToStr = String(num)
+console.log(typeof num)
+console.log(typeof numToStr)
+const srtToNum = Number(numToStr)
+console.log(typeof srtToNum)
